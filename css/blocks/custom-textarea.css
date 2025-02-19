@@ -1,0 +1,24 @@
+.custom-textarea__form,
+.custom-textarea__input,
+.custom-textarea__button {
+  background-color: #3e3a4f;
+}
+
+.custom-textarea__input {
+  font-size: 22px;
+  line-height: 32px;
+  color: #ffffff;
+  padding: 12px 24px;
+}
+
+.custom-textarea__button {
+  cursor: pointer;
+}
+
+.custom-textarea__form {
+  width: 540px;
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 20px 16px 24px;
+  border-radius: 8px;
+}
