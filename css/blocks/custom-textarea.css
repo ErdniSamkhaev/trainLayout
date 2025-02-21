@@ -9,10 +9,14 @@
   line-height: 32px;
   color: #ffffff;
   padding: 12px 24px;
+  border-color: #524b67;
+  border-style: hidden;
+  background-color: #3e3a4f;
 }
 
 .custom-textarea__button {
   cursor: pointer;
+  border: unset;
 }
 
 .custom-textarea__form {
