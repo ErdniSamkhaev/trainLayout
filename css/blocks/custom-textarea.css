@@ -8,7 +8,7 @@
   font-size: 22px;
   line-height: 32px;
   color: #ffffff;
-  padding: 12px 24px;
+  padding: 0;
   border-color: #524b67;
   border-style: hidden;
   background-color: #3e3a4f;
@@ -17,6 +17,7 @@
 .custom-textarea__button {
   cursor: pointer;
   border: unset;
+  padding: 0;
 }
 
 .custom-textarea__form {

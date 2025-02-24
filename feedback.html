@@ -13,45 +13,66 @@
       <!-- Обратная связь -->
       <div class="container">
         <h1 class="visually-hidden">Обратная связь</h1>
-        <div class="main__wrap">
-          <div class="main__inner">
-            <svg width="420" height="84">
-              <use xlink:href="images/sprite.svg#title"></use>
-            </svg>
-            <p class="main__text">
-              Поделись болью, вопросом или расскажи миру о&nbsp;том, кто
-              из&nbsp;коллег съел твой йогурт
-            </p>
-            <div class="custom-textarea">
-              <form class="custom-textarea__form" action="#" method="POST">
-                <input
-                  class="custom-textarea__input"
-                  type="text"
-                  placeholder="Твоё сообщение ..."
-                />
-                <button class="custom-textarea__button" type="submit" disabled>
-                  <svg width="24" height="24">
-                    <use xlink:href="images/sprite.svg#iconTg"></use>
-                  </svg>
-                </button>
-              </form>
-            </div>
-            <div class="feedback">
-              <div class="feedback__wrap">
-                <img
-                  src="images/image 1.png"
-                  width="180"
-                  height="180"
-                  alt="смайлик"
-                />
-                <p class="feedback__text">
-                  Я&nbsp;всю жизнь хотел в&nbsp;IT и&nbsp;у&nbsp;меня
-                  получилось. Но&nbsp;теперь я&nbsp;хочу с&nbsp;кем-то
-                  об&nbsp;этом поговорить...
-                </p>
-              </div>
+        <div class="main__inner">
+          <svg class="main__title" width="420" height="84">
+            <use xlink:href="images/sprite.svg#title"></use>
+          </svg>
+          <p class="main__text">
+            Поделись болью, вопросом или расскажи миру о&nbsp;том, кто
+            из&nbsp;коллег съел твой йогурт
+          </p>
+          <div class="custom-textarea">
+            <form class="custom-textarea__form" action="#" method="POST">
+              <input
+                class="custom-textarea__input"
+                type="text"
+                placeholder="Твоё сообщение ..."
+              />
+              <button class="custom-textarea__button" type="submit">
+                <svg width="24" height="24">
+                  <use xlink:href="images/sprite.svg#iconTg"></use>
+                </svg>
+              </button>
+            </form>
+          </div>
+          <div class="feedback">
+            <div class="feedback__wrap">
+              <img
+                src="images/image 1.png"
+                width="180"
+                height="180"
+                alt="смайлик"
+              />
+              <p class="feedback__text">
+                Я&nbsp;всю жизнь хотел в&nbsp;IT и&nbsp;у&nbsp;меня получилось.
+                Но&nbsp;теперь я&nbsp;хочу с&nbsp;кем-то об&nbsp;этом
+                поговорить...
+              </p>
             </div>
           </div>
+          <!-- Список модификаций сообщений -->
+          <ul class="feedback__list">
+            <li class="feedback__item">
+              <div class="feedback feedback--purple">
+                <div class="feedback__wrap">
+                  <p class="feedback__text">
+                    Для тестировщиков есть отдельный котёл в&nbsp;аду,
+                    я&nbsp;проверяла
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li class="feedback__item">
+              <div class="feedback feedback--green">
+                <div class="feedback__wrap">
+                  <p class="feedback__text">
+                    Что делать, если я хочу быть котиком, но надо идти и писать
+                    код?
+                  </p>
+                </div>
+              </div>
+            </li>
+          </ul>
         </div>
       </div>
     </main>
@@ -78,7 +99,12 @@
               кофе
             </span>
             <div class="footer__form">
-              <form class="footer__form-input" action="#" method="POST">
+              <form
+                class="footer__form-input"
+                action="#"
+                method="POST"
+                aria-label="Подписаться"
+              >
                 <svg width="20" height="20">
                   <use xlink:href="images/sprite.svg#iconMail"></use>
                 </svg>
