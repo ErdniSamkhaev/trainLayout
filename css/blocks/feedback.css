@@ -22,26 +22,3 @@
   position: absolute;
   top: 0;
 }
-
-.feedback--purple {
-  position: absolute;
-  top: 160px;
-}
-
-.feedback--green {
-  position: absolute;
-  top: 303px;
-}
-
-.feedback--purple .feedback__text {
-  background-color: #61235f;
-}
-
-.feedback--green .feedback__text {
-  background-color: #315c51;
-}
-
-.feedback__list {
-  margin: 0;
-  list-style-type: none;
-}
